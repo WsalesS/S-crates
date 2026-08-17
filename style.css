@@ -11,6 +11,13 @@ header{
     }
     article{
         display: flex;
+        border: 1px solid;
+        margin: 16px;
+        padding: 16px;
+        flex: 1 1 25%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
     main{
         background-color: #A6FBFB;
@@ -20,6 +27,8 @@ header{
         margin: 0 auto;
         padding: 16px;
         border: 6px solid #141F19;
+        display: flex;
+        flex-wrap: wrap;
         
     }
     img{
